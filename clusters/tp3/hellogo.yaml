@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./clusters/tp3/hellogo
+  path: /clusters/tp3/hellogo
   prune: true
   sourceRef:
     kind: "GitRepository"
